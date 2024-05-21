@@ -9,14 +9,12 @@ body {
     background-color: whitesmoke;
 }
 
+/* INIZIO HEADER */
+
 .panel_white {
     background-color: white;
-    height: 100px;
-    padding: 15px 20px;
-}
-
-h1 {
-    font-size: 48px;
+    height: 110px;
+    padding: 10px 100px;
 }
 
 header * {
@@ -25,25 +23,28 @@ header * {
     font-weight: bolder;
 }
 
+img {
+    width: 70px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+/* FINE HEADER */
+
+/* INIZIO PRIMO PANNELLO */
+
 nav {
     margin: 40px auto 4px;
 }
 
-
+.button_panel,
 .container {
     max-width: 1200px;
-    height: 100vh;
     margin: 0 auto;
     background-color: white;
-    padding: 30px 100px 0 100px;
-    border-radius: 0 0 10px 10px;
-}
-
-.button_panel {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 30px 100px 15px 80px;
+    padding: 20px 0 20px 60px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -60,23 +61,28 @@ nav {
     background-color: rgb(49, 177, 241);
 }
 
-.button.white {
+.white {
     color: darkgrey;
     border-color: darkgray
 }
 
-li {
-    list-style-type: none;
-    font-weight: 700;
-    font-size: 36px;
-    padding-left: 10px;
+/* FINE PRIMO PANNELLO */
 
+/* INIZIO PANNELLO PRINCIPALE  */
 
+.container.border {
+    border-radius: 0 0 10px 10px;
 }
 
-.fontsize_normal {
+li {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+li li {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 2.5;
 }
 
@@ -89,21 +95,20 @@ span {
     font-size: 20px;
 }
 
-.cross {
+.span_cross {
     color: rgb(174, 14, 14);
     border-color: rgb(174, 14, 14);
-
 }
 
-.category {
+.categories_tag {
     color: white;
     border: 1px solid;
     border-radius: 25px;
-    font-size: large;
+    font-size: 16px;
     padding: 5px 20px;
 }
 
-.purple {
+.violet {
     background-color: rgb(165, 94, 231);
 }
 
