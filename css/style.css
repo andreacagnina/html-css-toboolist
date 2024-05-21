@@ -11,8 +11,12 @@ body {
 
 .panel_white {
     background-color: white;
-    height: 80px;
+    height: 100px;
     padding: 15px 20px;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 header * {
@@ -38,7 +42,7 @@ nav {
     max-width: 900px;
     margin: 0 auto;
     background-color: white;
-    padding: 30px 100px 15px 100px;
+    padding: 30px 100px 15px 80px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -58,4 +62,25 @@ nav {
 .button.white {
     color: darkgrey;
     border-color: darkgray
+}
+
+li {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 48px;
+    padding-left: 10px;
+
+
+}
+
+.fontsize_normal {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 2.5;
+}
+
+span {
+    padding: 0 10px;
+    border: 1px solid;
+    border-radius: 50%;
 }
