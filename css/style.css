@@ -31,7 +31,8 @@ nav {
 
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
+    height: 100vh;
     margin: 0 auto;
     background-color: white;
     padding: 30px 100px 0 100px;
@@ -39,7 +40,7 @@ nav {
 }
 
 .button_panel {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: white;
     padding: 30px 100px 15px 80px;
@@ -54,9 +55,9 @@ nav {
     margin-right: 5px;
 }
 
-.button.blue {
+.blue {
     color: white;
-    background-color: dodgerblue;
+    background-color: rgb(49, 177, 241);
 }
 
 .button.white {
@@ -67,7 +68,7 @@ nav {
 li {
     list-style-type: none;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 36px;
     padding-left: 10px;
 
 
@@ -80,7 +81,44 @@ li {
 }
 
 span {
+    color: rgb(64, 182, 64);
     padding: 0 10px;
-    border: 1px solid;
+    border: 3px solid rgb(64, 182, 64);
     border-radius: 50%;
+    color: rgb(64, 182, 64);
+    font-size: 20px;
+}
+
+.cross {
+    color: rgb(174, 14, 14);
+    border-color: rgb(174, 14, 14);
+
+}
+
+.category {
+    color: white;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: large;
+    padding: 5px 20px;
+}
+
+.purple {
+    background-color: rgb(165, 94, 231);
+}
+
+.green {
+    background-color: rgb(64, 182, 64);
+}
+
+.orange {
+    background-color: darkorange;
+}
+
+.pink {
+    background-color: indianred;
+}
+
+.lime {
+    background-color: rgb(135, 199, 39);
 }
