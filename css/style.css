@@ -21,9 +21,41 @@ header * {
     font-weight: bolder;
 }
 
+nav {
+    margin: 40px auto 4px;
+}
+
+
 .container {
     max-width: 900px;
-    height: 100vh;
+    margin: 0 auto;
     background-color: white;
-    margin: 40px auto;
+    padding: 30px 100px 0 100px;
+    border-radius: 0 0 10px 10px;
+}
+
+.button_panel {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px 100px 15px 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 5px;
+}
+
+.button.blue {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.button.white {
+    color: darkgrey;
+    border-color: darkgray
 }
