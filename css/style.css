@@ -11,10 +11,11 @@ body {
 
 /* INIZIO HEADER */
 
-.panel_white {
+header {
     background-color: white;
     height: 110px;
     padding: 10px 100px;
+    margin: 0 0 40px 0;
 }
 
 header * {
@@ -36,11 +37,11 @@ h1 {
 /* INIZIO PRIMO PANNELLO */
 
 nav {
-    margin: 40px auto 4px;
+    border-bottom: 6px solid whitesmoke;
 }
 
-.button_panel,
-.container {
+nav,
+main {
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
@@ -48,9 +49,9 @@ nav {
     border-radius: 10px 10px 0 0;
 }
 
-.button {
+nav div {
     display: inline-block;
-    border: 1px solid;
+    border: 1px solid transparent;
     border-radius: 8px;
     padding: 10px 20px;
     margin-right: 5px;
@@ -70,7 +71,7 @@ nav {
 
 /* INIZIO PANNELLO PRINCIPALE  */
 
-.container.border {
+main {
     border-radius: 0 0 10px 10px;
 }
 
@@ -100,7 +101,7 @@ span {
     border-color: rgb(174, 14, 14);
 }
 
-.categories_tag {
+span:nth-child(2) {
     color: white;
     border: 1px solid;
     border-radius: 25px;
